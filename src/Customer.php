@@ -12,5 +12,9 @@ namespace BelajarPhpComposer{
       public function sayHello(string $name = "Guest"): string{
 	 return "Hello customer $name, my name is $this->name";
       }
+
+      public function salam(string $salam): string{
+	 return "$salam ya ukhty!";
+      }
    }
 }
