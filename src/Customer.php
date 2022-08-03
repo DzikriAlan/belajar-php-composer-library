@@ -9,7 +9,7 @@ namespace BelajarPhpComposer{
 	 $this->name = $name;
       }
 
-      public function sayHello(string $name){
+      public function sayHello(string $name = "Guest"): string{
 	 return "Hello customer $name, my name is $this->name";
       }
    }
